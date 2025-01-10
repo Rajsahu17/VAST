@@ -25,3 +25,24 @@ def len_raj(input1):
     length_list= len_raj(list1)
     print(length_list)
 
+#count()
+
+def rajlen(input1):
+    count=_0
+    for i in input:
+        count +=1
+        return count
+
+    list1 = [1,2,3,4]
+    print(rajlen(list1))
+
+
+    #sort()
+
+    def raj_sort(input1):
+        input1.sort()
+        return input1
+
+    input1= [4,2,3,1]
+    sort_list = rajsort(input1)
+    print("sorted list",sort_list)
