@@ -19,7 +19,7 @@ def len_raj(input1):
     length = 0
     for i in input1:
         length +=1 
-        return length
+    return length
     
     list1 =[1,2,3,4]
     length_list= len_raj(list1)
@@ -29,7 +29,7 @@ def len_raj(input1):
 
 def rajlen(input1):
     count=_0
-    for i in input:
+    for i in input1:
         count +=1
         return count
 
@@ -44,5 +44,5 @@ def rajlen(input1):
         return input1
 
     input1= [4,2,3,1]
-    sort_list = rajsort(input1)
-    print("sorted list",sort_list)
+    sort_list = raj_sort(input1)
+    print("sorted list:",sort_list)
